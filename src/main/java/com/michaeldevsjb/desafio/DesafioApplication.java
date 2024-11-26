@@ -13,9 +13,6 @@ public class DesafioApplication implements CommandLineRunner {
 
 	@Autowired
 	private OrderService orderService;
-	@Autowired
-	private ShippingService shippingService;
-
 
 	public static void main(String[] args) {
 		SpringApplication.run(DesafioApplication.class, args);
